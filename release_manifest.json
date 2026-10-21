@@ -1,0 +1,156 @@
+{
+  "release_date": "2026-10-21",
+  "scope": "Core code only; MIMIC-IV and eICU extraction; no patient data",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 19,
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 338,
+      "sha256": "6dd1db40dc8311679fd14f9a2d6c82a0317a5849eade9dacba0f2e9a37ed9177"
+    },
+    {
+      "path": "core_code/01_cohort_and_features/baseline_and_SOFA.py",
+      "bytes": 3631,
+      "sha256": "e660e6786c38af62fa839b4d9801fbd3c21018fa846e2732bbd90ef1469e8814"
+    },
+    {
+      "path": "core_code/01_cohort_and_features/cohort_rules.py",
+      "bytes": 4655,
+      "sha256": "1f6004c8d35ff6f62dcf6bf43e152bc30aa3c2737f0628d19da16154a30d9d42"
+    },
+    {
+      "path": "core_code/01_cohort_and_features/NEE_source_state.py",
+      "bytes": 5085,
+      "sha256": "6cd75612dbce34c8056f250dd20ba5888384f8a3691439de00d727a4efbaa9ec"
+    },
+    {
+      "path": "core_code/01_cohort_and_features/README.md",
+      "bytes": 2266,
+      "sha256": "0f50c69f7d57069050c33c51adc644bcb70843b67d15b3aea621633b3db05658"
+    },
+    {
+      "path": "core_code/02_trajectory/README.md",
+      "bytes": 4627,
+      "sha256": "e4b84429654e9cabbf2e94cec4e14057414258f65e7105f8063367eafa7a141d"
+    },
+    {
+      "path": "core_code/02_trajectory/trajectory_model.py",
+      "bytes": 11381,
+      "sha256": "0d938a1501fad24e1d1831b6194d82ef8d752b640c3103355abf0c3c790e3433"
+    },
+    {
+      "path": "core_code/03_association/association_core.R",
+      "bytes": 7849,
+      "sha256": "9b6425c4c32a26d6faebac6ae9abb3f54a729f4c17b37846b9d4bfe8d007ecf3"
+    },
+    {
+      "path": "core_code/03_association/README.md",
+      "bytes": 5384,
+      "sha256": "90beffd602768b82578487ae0dc9be109b14ad41b8768196a013682df9e09658"
+    },
+    {
+      "path": "core_code/03_association/three_step_ml.py",
+      "bytes": 6604,
+      "sha256": "6a98debf36f023fa0c8f26252bb96bf210a408891fc525995f5cb8b68c42d844"
+    },
+    {
+      "path": "core_code/04_cif/cif_core.py",
+      "bytes": 4268,
+      "sha256": "21564ac47bde92d2217d0ed9082a3ba43616e66c5e7c567de26fd5a536fca8c3"
+    },
+    {
+      "path": "core_code/04_cif/README.md",
+      "bytes": 2119,
+      "sha256": "cc4266f866306ee06c87b9ec615ea5a6e24b21a77ca25df7914df817fdb26a5e"
+    },
+    {
+      "path": "core_code/05_conditional_information/conditional_core.R",
+      "bytes": 4459,
+      "sha256": "b7988ad3843e34de46cb0a69a0d6ea1e79b89cedca28d33fffe93aa6ad701cc8"
+    },
+    {
+      "path": "core_code/05_conditional_information/README.md",
+      "bytes": 3959,
+      "sha256": "f43831f6abd5175db82cf30da902cf557bbcba89edbaee4ad2ea49acac68f0c6"
+    },
+    {
+      "path": "core_code/05_conditional_information/robust_MI_core.R",
+      "bytes": 3886,
+      "sha256": "8e57caca18f6a711d126a19aaf80cb51d0c93787a06994b3610b443ee7f476fc"
+    },
+    {
+      "path": "core_code/05_conditional_information/summary_features.py",
+      "bytes": 1941,
+      "sha256": "4b0b80b274b27d6fe2e0893ef29c4ee8aa3fa676479adc0e5389353fb1b77f29"
+    },
+    {
+      "path": "core_code/06_incremental_value/README.md",
+      "bytes": 4647,
+      "sha256": "39bfeba928e421fb6a87abd344119346fb43efed1cf63ab102792595a561d4c0"
+    },
+    {
+      "path": "core_code/06_incremental_value/risk_models.R",
+      "bytes": 7336,
+      "sha256": "4ef4b7308e8bf68ae20d68ce50fddc0fff866e0147fed23df89b9ea6d5101ddf"
+    },
+    {
+      "path": "core_code/06_incremental_value/risk_numeric_core.R",
+      "bytes": 1813,
+      "sha256": "82c66ade8e482c2e5fb4070e5a467f696f8b3b4e5f520097548667adf0f15e50"
+    },
+    {
+      "path": "core_code/README.md",
+      "bytes": 4144,
+      "sha256": "80b868ea40ad31c16ec7574b5ed644d8346187a6174898219f94e8af56ac7e07"
+    },
+    {
+      "path": "core_code/requirements.txt",
+      "bytes": 25,
+      "sha256": "ac9031acfcda5d2a055715c75edc2fc298e457571444ce9fef0ddbd4668d4d20"
+    },
+    {
+      "path": "docs/analysis_contract.md",
+      "bytes": 3561,
+      "sha256": "699cb1241eb9f1bccd8e0e1717558aa0bc131a1136b724c235d9d11e02e1751c"
+    },
+    {
+      "path": "extraction/extract.py",
+      "bytes": 2697,
+      "sha256": "5bb36b16391c24bfb36924197951d5168de829db50bddc4ead79ebd65d9aaf5e"
+    },
+    {
+      "path": "extraction/README.md",
+      "bytes": 5346,
+      "sha256": "0c8faf0555e8d984a5417f7c281c978d9c37b4715604e6e29a792f5df9d94b14"
+    },
+    {
+      "path": "extraction/requirements.txt",
+      "bytes": 24,
+      "sha256": "1231a70a061afa8a155f86baa834980b726b0d040fbbdcd345f634b8248a1c4c"
+    },
+    {
+      "path": "extraction/sql/eicu.sql",
+      "bytes": 4740,
+      "sha256": "2780aed7a2b3ce346699f2d9ae99a7b56f7ecd8b040073211547e6b7d50f3d58"
+    },
+    {
+      "path": "extraction/sql/mimiciv.sql",
+      "bytes": 4592,
+      "sha256": "cf77f9b01c2aaacb0bd3866756301cd5bf603c9b9996f9ee1c538b8ed4060a7e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3969,
+      "sha256": "1bade1ce62fbaba35f03a0632b3b76f86324f8528da88231388d4e9ad02b3eb3"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "bytes": 982,
+      "sha256": "e1c92845b9354c853a44c304bf2630dc215e2ae78b67bb201d987615e5513ef0"
+    }
+  ]
+}
